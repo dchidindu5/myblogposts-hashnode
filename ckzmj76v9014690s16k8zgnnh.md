@@ -1,9 +1,10 @@
-## 3 Programming errors every programmer should know!
+# 3 Programming errors every programmer should know!
 
-Beginners in programming make mistakes writing programs because of inexperience in programming in general or because of unfamiliarity with the programming language. Well seasoned programmers make mistakes due to carelessness or because the proposed solution to a problem is faulty and the correct implementation of an incorrect solution will not produce a correct program.
-> Note: Dev C++ will be used as IDE.
+Beginners in programming make a lot of mistakes while writing programs because of inexperience in programming or because of unfamiliarity with the programming language. Well seasoned programmers make mistakes due to carelessness or because the proposed solution to a problem is faulty and the correct implementation of an incorrect solution will not produce a correct program.
 
  Regardless of the reason, programming error falls under one of three categories:
+> Note: Dev C++ will be used as IDE.
+
 **Compile-time error**
 
 **Run-time error**
@@ -99,7 +100,7 @@ The program contains an error, but neither the compiler nor the run-time system 
 An error of this type is known as a **logic error**.
 
 As the programmer becomes more professional in writing programs, the number of compile-time errors decreases or are trivially fixed and the number of logic errors increases.
-Unfortunately, Logical errors tends to be the most difficult to find and repair, but there's always a way out.
+Unfortunately, Logical errors tend to be the most difficult to find and repair, but there's always a way out.
 
 The bad news is that since software development in an inherently human intellectual pursuit, logic errors are inevitable. Accidentally introducing and later finding and eliminating logic errors is an integral part of the programming process.
 
