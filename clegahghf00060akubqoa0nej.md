@@ -9,9 +9,9 @@ Wagtail is an open-source content management system built on Django, It's focuse
 
 This guide is recommended for new users using
 
--* Windows 11
+* Windows 11
     
--* Windows 10
+* Windows 10
     
 * Windows 8.1 pro
     
@@ -28,15 +28,15 @@ Let’s get started!!
 
 ### **Prerequisites**
 
-* Command prompt interface
+- Command prompt interface
     
-* Python
+- Python
     
-* PiP
+- PiP
     
-* Pillow package
+- Pillow package
     
-* Wagtail and its dependencies.
+- Wagtail and its dependencies.
     
 
 1. **Install Python,**  [**Recommended(Python 3.10. 8)**](https://www.python.org/downloads/) (I installed python 3.10.0 on my PC).
