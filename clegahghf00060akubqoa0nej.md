@@ -39,7 +39,8 @@ Let’s get started!!
 - Wagtail and its dependencies.
     
 
-1. **Install Python,**  [**Recommended(Python 3.10. 8)**](https://www.python.org/downloads/) (I installed python 3.10.0 on my PC).
+
+- **Install Python,**  [**Recommended(Python 3.10. 8)**](https://www.python.org/downloads/) (I installed python 3.10.0 on my PC).
     
 
 After the installation verify that python has been successfully installed by typing the following in your **command prompt** `python –-version`  OR  `python -V`
