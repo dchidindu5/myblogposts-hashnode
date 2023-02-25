@@ -37,12 +37,12 @@ In the following example, the `main` function passes the value `5` to the iterat
 
 The variable name of the actual parameter is the same as the formal parameter. Since the formal parameter is localized within its function. Both actual parameter and formal parameters are declared and used in different contexts and represent completely different memory locations, their names can be the same without any problems. The memory for the variable `y` in main is unaffected since increment works on a copy of the actual parameter.
 
-\*\* *Advantages of Pass by value*\*\*
+ ** Advantages of Pass by value **
 
 * One of the advantages of pass-by-value is that a function is free to modify a parameter without inadvertently changing the data at the calling location.
     
 
-\*\* *Disadvantages of Pass by value*\*\*
+** Disadvantages of Pass by value **
 
 * When a function changes a parameter passed by value, that change cannot be propagated back to the caller through the parameter even when we want to do so.
     
@@ -118,10 +118,10 @@ There are several advantages of using ***pass-by-reference and pass-by pointer**
 
 ### sources
 
-* C++ Language Tutorial
+- C++ Language Tutorial
     
     [https://cplusplus.com/doc/tutorial](https://cplusplus.com/doc/tutorial)
     
-* cppreference.com
+- cppreference.com
     
     [<cite>https://en.cppreference.com</cite>](https://en.cppreference.com)
