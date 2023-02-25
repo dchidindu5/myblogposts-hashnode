@@ -9,9 +9,9 @@ Wagtail is an open-source content management system built on Django, It's focuse
 
 This guide is recommended for new users using
 
-* Windows 11
+-* Windows 11
     
-* Windows 10
+-* Windows 10
     
 * Windows 8.1 pro
     
