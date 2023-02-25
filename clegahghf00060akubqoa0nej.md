@@ -40,7 +40,8 @@ Let’s get started!!
     
 
 
-- **Install Python,**  [**Recommended(Python 3.10. 8)**](https://www.python.org/downloads/) (I installed python 3.10.0 on my PC).
+
+1.  **Install Python,**  [**Recommended(Python 3.10. 8)**](https://www.python.org/downloads/) (I installed python 3.10.0 on my PC).
     
 
 After the installation verify that python has been successfully installed by typing the following in your **command prompt** `python –-version`  OR  `python -V`
@@ -48,6 +49,7 @@ After the installation verify that python has been successfully installed by typ
 ![](https://lh4.googleusercontent.com/oedzk4TfBe79Ju9XYvwoS_b5gc4uR20quD-M0hMdH0ZaYmjMSRYr--jC4RvnjxMKbYZuncV0myRgrFqDOPrhLLRwiI-OMeXNHfNRlcmc61w92ZwATI2KanF1aczpGR3_PsfwBzp7uo3cKdoGKXW632M align="left")
 
 **N/B** - If it generates an error, quickly add python path to the Environment Variables.
+
 
 2. Install **Pip** (pip is automatically installed if you're using Python downloaded from its official Website But try to check the version before proceeding by using this command in your **command prompt**   `pip -V` **)**
     
@@ -66,6 +68,8 @@ If you already have Pillow installed and you want to upgrade it use this
 
 ![](https://lh6.googleusercontent.com/E87ibB33KWGAA31zRd9io8KVYx3e_KML4xuxpvPNKgnNtBnSsLrQ2CAY89thHKXI4XvDZ7ZT6JRFdFiksHad5DAel5A_lvoQ6eImykPCY46H0EefOYKlMtNO_i6ERkHAmDsUFROq3VaLkomPLzshn7g align="left")
 
+
+
 4. **Create and activate a virtual environment**
     
 
@@ -83,13 +87,17 @@ c:`\Users\YOUR PC NAME\outreachywag\env\Scripts\activate.bat`
 
 After that, you’ll have to open a new command window before proceeding to the next step.
 
+
 5. **Finally, Install Wagtail**
     
+
 Install wagtail using the pip command `pip install wagtail`
 
 To effectively create a folder and site with wagtail dependencies  use the following commands=&gt;  `wagtail start outreachywag outreachywag`
 
 > **N/B: Use the name you created earlier in step 4.**
+
+
 
 6. **Install project dependencies**
     
@@ -99,12 +107,16 @@ To effectively create a folder and site with wagtail dependencies  use the foll
 
 Wait till it installs.
 
+
+
 7. **Create a Database**
     
 
 `python` [`manage.py`](http://manage.py) `migrate`
 
 ![](https://lh5.googleusercontent.com/aVuYr9W6B1J4eiGQNqEHoQ8SzCrvtksc5j87a0IjUNvmfw3HlZyp3_uS2KBXxlyKiw915vMqDjpIKVk0o1Zo-SssrUJ0QivKu4LSK9DOKT72FKd0TwyfUCafdPCEZkQvZYaB0FiLkq4QJny2x0fR8EE align="left")
+
+
 
 8. **Create an Admin user**
     
@@ -116,6 +128,8 @@ Wait till it installs.
 After executing the command, you will be required to put your credentials such as Username, Email and password.
 
 While typing the password, it will remain unseen by the user but keep typing and use a short and secure phrase for the password.
+
+
 
 9. **Start the server**
     
@@ -130,15 +144,19 @@ If it runs successfully,Open your browser and enter this address, [http://127.0.
 
 ![](https://lh6.googleusercontent.com/wnIUHXWxMDPBWtLim0GUc35pqK4PzJbTljXrHX2IVL-cVdCFH0mKjmzmdgUGJgYXDM8iDLipbMior26NcX_m6s7K_0UifuwH4e3fXtzwyb0HTwy4qFMHJQcCnaX8Xa6ar8teLVMgDDF33SVyVw2YqjQ align="left")
 
+
+
 10. Additionally, navigate to [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) to access the administrator area.
     
 
 You will be asked for a username and password that you created in **step 9**.
 
+
+
 11. You've successfully installed wagtail and its dependencies!!.
     
 
-## Conclusion
+### Conclusion
 
 This tutorial walked you through installing the open-source Wagtail CMS into your windows operating system. To learn more about installation into other operating systems, customising wagtail and wagtail APIs, visit [https://docs.wagtail.org/en/stable/](https://docs.wagtail.org/en/stable/)
 
