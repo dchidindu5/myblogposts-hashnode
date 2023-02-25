@@ -1,5 +1,6 @@
 # Getting Started with Wagtail: A Beginner's Installation Guide
 
+
 ### **What is wagtail?**
 
 Wagtail is an open-source content management system built on Django, It's focused on user experience, and offers precise control for designers and developers.
@@ -8,7 +9,7 @@ Wagtail is an open-source content management system built on Django, It's focuse
 
 This guide is recommended for new users using
 
-* **Windows 11**
+*Windows 11*
     
 * Windows 10
     
@@ -47,16 +48,15 @@ After the installation verify that python has been successfully installed by typ
 
 **N/B** - If it generates an error, quickly add python path to the Environment Variables.
 
-1. Install Pip (pip is automatically installed if you're using Python downloaded from its official Website But try to check the version before proceeding by using this command in your **command prompt**   `pip -V` **)**
+2. Install **Pip** (pip is automatically installed if you're using Python downloaded from its official Website But try to check the version before proceeding by using this command in your **command prompt**   `pip -V` **)**
     
 
 ![](https://lh4.googleusercontent.com/u8PM_Vr2KZOwbWYq5SDhHH0Ho9RBR0CgI9MIOJYoFM56N4MLgaFtltFEhcOMIZ0OBScaEbetxeqFbkHldPWDrthnJTJ9JO9JRMp9ZE8EO-SgqsMTcH-EB-MCsipaMIvzQCzs16m7UhcEZBxwjV4kaHM align="left")
 
 If it generates an error, visit the official website [(pip installation)](https://pip.pypa.io/en/stable/installation/) and follow the instructions there.
 
-1. Install **Pillow** package
+3. Install **Pillow** package
     
-
 Still, on your command prompt window type `pip install Pillow`
 
 If you already have Pillow installed and you want to upgrade it use this
@@ -65,7 +65,7 @@ If you already have Pillow installed and you want to upgrade it use this
 
 ![](https://lh6.googleusercontent.com/E87ibB33KWGAA31zRd9io8KVYx3e_KML4xuxpvPNKgnNtBnSsLrQ2CAY89thHKXI4XvDZ7ZT6JRFdFiksHad5DAel5A_lvoQ6eImykPCY46H0EefOYKlMtNO_i6ERkHAmDsUFROq3VaLkomPLzshn7g align="left")
 
-1. **Create and activate a virtual environment**
+4. **Create and activate a virtual environment**
     
 
 For this tutorial, we will be using `venv` because it’s used for creating lightweight virtual environments.
@@ -82,32 +82,30 @@ c:`\Users\YOUR PC NAME\outreachywag\env\Scripts\activate.bat`
 
 After that, you’ll have to open a new command window before proceeding to the next step.
 
-1. **Finally, Install Wagtail**
+5. **Finally, Install Wagtail**
     
-
 Install wagtail using the pip command `pip install wagtail`
 
 To effectively create a folder and site with wagtail dependencies  use the following commands=&gt;  `wagtail start outreachywag outreachywag`
 
 > **N/B: Use the name you created earlier in step 4.**
 
-1. **Install project dependencies**
+6. **Install project dependencies**
     
-
 `cd outreachywag`
 
 `pip install -r requirements.txt`
 
 Wait till it installs.
 
-1. **Create a Database**
+7. **Create a Database**
     
 
 `python` [`manage.py`](http://manage.py) `migrate`
 
 ![](https://lh5.googleusercontent.com/aVuYr9W6B1J4eiGQNqEHoQ8SzCrvtksc5j87a0IjUNvmfw3HlZyp3_uS2KBXxlyKiw915vMqDjpIKVk0o1Zo-SssrUJ0QivKu4LSK9DOKT72FKd0TwyfUCafdPCEZkQvZYaB0FiLkq4QJny2x0fR8EE align="left")
 
-1. **Create an Admin user**
+8. **Create an Admin user**
     
 
 `python` [`manage.py`](http://manage.py) `createsuperuser`
@@ -118,7 +116,7 @@ After executing the command, you will be required to put your credentials such a
 
 While typing the password, it will remain unseen by the user but keep typing and use a short and secure phrase for the password.
 
-1. **Start the server**
+9. **Start the server**
     
 
 To start up the server, run the command below to get started
@@ -131,17 +129,18 @@ If it runs successfully,Open your browser and enter this address, [http://127.0.
 
 ![](https://lh6.googleusercontent.com/wnIUHXWxMDPBWtLim0GUc35pqK4PzJbTljXrHX2IVL-cVdCFH0mKjmzmdgUGJgYXDM8iDLipbMior26NcX_m6s7K_0UifuwH4e3fXtzwyb0HTwy4qFMHJQcCnaX8Xa6ar8teLVMgDDF33SVyVw2YqjQ align="left")
 
-1. Additionally, navigate to [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) to access the administrator area.
+10. Additionally, navigate to [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) to access the administrator area.
     
 
 You will be asked for a username and password that you created in **step 9**.
 
-1. You've successfully installed wagtail and its dependencies!!.
+11. You've successfully installed wagtail and its dependencies!!.
     
 
 ## Conclusion
 
 This tutorial walked you through installing the open-source Wagtail CMS into your windows operating system. To learn more about installation into other operating systems, customising wagtail and wagtail APIs, visit [https://docs.wagtail.org/en/stable/](https://docs.wagtail.org/en/stable/)
+
 
 ### Sources
 
