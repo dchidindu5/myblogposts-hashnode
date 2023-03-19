@@ -32,7 +32,7 @@ On most operating systems, a file is regarded as a text file if the suffix of th
 
 Binary files are typically more efficient for storing large amounts of data than text files because they take up less space on disk and can be read and written more quickly. However, since they are machine-dependent, they are not suitable for sharing data between people or across different computer systems.
 
-### Summary
+### **Summary**
 
 Ultimately, the choice between binary files and text files depends on the particular requirements of the application. text files may be preferred if platform independence and human-readability are of greater significance. whereas If speed and efficiency are paramount, binary files may be the better choice.
 
