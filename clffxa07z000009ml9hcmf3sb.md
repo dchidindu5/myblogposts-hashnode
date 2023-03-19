@@ -30,7 +30,7 @@ On most operating systems, a file is regarded as a text file if the suffix of th
 
 `.bin` files, on the other hand, are binary files that contain non-textual data in a binary format. This means that data is stored in a series of 1’s and 0's. they are not human-readable and require a specific program to interpret and read the data. Binary files can contain any type of data, including images, audio, video, executable code, and more. They are usually created and used by software programs and are often much larger than text files.
 
-Binary files are typically more efficient for storing large amounts of data than text files because they take up less space on disk and can be read and written more quickly. However, since they are machine-dependent, they are not suitable for sharing data between people or across different computer systems. &lt;br&gt;
+Binary files are typically more efficient for storing large amounts of data than text files because they take up less space on disk and can be read and written more quickly. However, since they are machine-dependent, they are not suitable for sharing data between people or across different computer systems. <br>
 
 ### **Summary**
 
