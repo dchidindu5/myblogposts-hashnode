@@ -12,11 +12,11 @@ tags: operating-system, opensource, text-editors, data-recovery
 
 Have you ever come across a file with a .bin extension?
 
-![](https://cdn-images-1.medium.com/max/800/1*o6qiD2gcjh-DqHvVtcMRQA.jpeg align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679262489973/e51191aa-c9fc-4d1b-8433-16bac8375be0.jpeg align="left")
 
 Did you try to open it with a text editor?
 
-![](https://cdn-images-1.medium.com/max/800/1*h5Oq-8xrs7BH1UokhC9Hdg.jpeg align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679262528206/bc08e5cb-111d-43c5-9ac3-39c279720ca3.jpeg align="left")
 
 I guess you had a similar output?
 
@@ -24,7 +24,7 @@ When it comes to storing and retrieving data, there are two main options: text f
 
 These two different file formats are used to store data in a computer system. Each method has its own set of pros and cons, which should be taken into consideration when deciding which approach to use.
 
-`.txt` files are plain text files that contain human-readable characters encoded in [ASCII](https://en.wikipedia.org/wiki/ASCII) or Unicode format. These files are usually created and edited using a simple text editor such as Notepad or TextEdit. `.txt` files are very simple and only contain plain text without any formatting or special characters. They are also very lightweight and can be easily shared via email or other means. 
+`.txt` files are plain text files that contain human-readable characters encoded in [ASCII](https://en.wikipedia.org/wiki/ASCII) or Unicode format. These files are usually created and edited using a simple text editor such as Notepad or TextEdit. `.txt` files are very simple and only contain plain text without any formatting or special characters. They are also very lightweight and can be easily shared via email or other means.
 
 On most operating systems, a file is regarded as a text file if the suffix of the name of the file (that is “[filename extension](https://en.wikipedia.org/wiki/Filename_extension)”) is `.txt.` Text files usually have the [MIME](https://en.wikipedia.org/wiki/MIME) type `text/plain`, usually with additional information indicating an encoding.
 
@@ -34,6 +34,6 @@ Binary files are typically more efficient for storing large amounts of data than
 
 ### Summary
 
-Ultimately, the choice between binary files and text files depends on the particular requirements of the application. text files may be preferred if platform independence and human-readability are of greater significance. whereas If speed and efficiency are paramount, binary files may be the better choice. 
+Ultimately, the choice between binary files and text files depends on the particular requirements of the application. text files may be preferred if platform independence and human-readability are of greater significance. whereas If speed and efficiency are paramount, binary files may be the better choice.
 
 So next time never thinks a text editor can successfully read a binary file.
